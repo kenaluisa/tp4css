@@ -1,0 +1,90 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 3vw;
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    left: 0%;
+}
+.nav{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 0.5vw;
+    border-radius: 8px;
+   margin: 2vw 2vw ;
+    
+}
+footer{
+    text-align: center;
+    background-color:black;
+    color: white;
+    margin-top: 0px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px;
+    height: 10%;
+    width: 100%;
+
+}
+.imgabout, .imgindex {
+    width: 40%;
+}
+h2{
+    font-size: 2vw;
+}
+/*redes sociales*/
+.redes{
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+}
+.redes a{
+    color: black;
+    margin: 0px 6px;
+    font-size: 2vw;
+}
+.redes a:hover{
+    color: rgb(218, 14, 14);
+}
+input, label{
+    font-size: 1vw;
+}
+input [type=text], input [type=password], input [type=number], input [type=radio], input [type=checkbox]{
+    width: 80%;
+    padding: 1vw;
+    margin: 1vw;
+    display: inline-block;
+    border: 1vw;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.formulario{
+    border-radius: 5px;
+    background-color: rgb(224, 213, 213);
+    padding: 2%;
+    margin: 1% 20%;
+}
+.estudios{
+    width:3%;
+    padding: 1vw;
+    margin: 1vw;
+    display: inline-block;
+    border: 1vw;
+   
+}
+#enviar{
+    width: 100%;
+    background-color: rgb(110, 223, 110);
+
+}
